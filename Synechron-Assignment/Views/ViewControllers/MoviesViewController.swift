@@ -44,7 +44,7 @@ class MoviesViewController: UIViewController, UIScrollViewDelegate {
         
         let padding: CGFloat =  25
         let collectionViewSize = moviesCollectionView.frame.size.width - padding
-        let itemSize = CGSize(width: collectionViewSize/2, height: 115)
+        let itemSize = CGSize(width: collectionViewSize/2, height: 300)
         layout.itemSize = itemSize
         
         return layout
