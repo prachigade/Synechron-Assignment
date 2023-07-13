@@ -31,7 +31,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func loginBtnTapped(_ sender: UIButton) {
-        print("login tapped")
+        let moviesVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MoviesViewController")
+        self.navigationController?.pushViewController(moviesVC, animated: true)
     }
 }
 

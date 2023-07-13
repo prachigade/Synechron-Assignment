@@ -6,7 +6,9 @@ target 'Synechron-Assignment' do
   use_frameworks!
     pod 'RxSwift'
     pod 'RxCocoa'
-
+    pod 'Alamofire'
+    pod 'SDWebImage'
+    
   # Pods for Synechron-Assignment
 
   target 'Synechron-AssignmentTests' do

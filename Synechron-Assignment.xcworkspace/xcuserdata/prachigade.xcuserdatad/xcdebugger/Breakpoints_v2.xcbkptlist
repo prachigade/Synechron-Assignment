@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8B7BCD42-3C66-45A9-B869-6D3791643CA5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "033C2A02-3658-46E1-ADDB-F0279CEEF59C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loginBtnTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10B42F08-3357-49F4-8A9E-1C3D0A014CF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/Utilities/APIRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10B42F08-3357-49F4-8A9E-1C3D0A014CF4 - d4194280636165cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in closure #1 (RxSwift.AnyObserver&lt;&#x3c4;_0_0&gt;) -&gt; RxSwift.Disposable in static Synechron_Assignment.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(Alamofire.URLRequestConvertible) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/Utilities/APIRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "10B42F08-3357-49F4-8A9E-1C3D0A014CF4 - d41942806361654f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in closure #1 (RxSwift.AnyObserver&lt;&#x3c4;_0_0&gt;) -&gt; RxSwift.Disposable in static Synechron_Assignment.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(Alamofire.URLRequestConvertible) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/Utilities/APIRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C0210B-107D-482E-9B86-06771100C4FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/Utilities/APIRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "asURLRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49C0210B-107D-482E-9B86-06771100C4FD - f65b422ffff69648"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Synechron_Assignment.ApiRouter.asURLRequest() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/Utilities/APIRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "49C0210B-107D-482E-9B86-06771100C4FD - f65b422ffff69669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Synechron_Assignment.ApiRouter.asURLRequest() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/Utilities/APIRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D93242A-2E06-4B61-AF16-912184E70A2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/MoviesCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "setupMovieCell(movie:imageUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF32AEED-39EC-4EB0-A874-ADCF2C8C5C0F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/ViewModels/MoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchMovies(currentPage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CF1DC20-3E23-427A-987C-293C322D4F2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/MoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "bindCollectionView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA9D1142-A0FB-41D4-BC0E-C19A89DA52DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/ViewModels/MoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "bindScrollEnded()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA9D1142-A0FB-41D4-BC0E-C19A89DA52DD - 8bbfb43e11a3f1ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;()&gt;) -&gt; () in Synechron_Assignment.MoviesViewModel.bindScrollEnded() -&gt; ()"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/ViewModels/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "EA9D1142-A0FB-41D4-BC0E-C19A89DA52DD - 8bbfb43e11a3f1ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;()&gt;) -&gt; () in Synechron_Assignment.MoviesViewModel.bindScrollEnded() -&gt; ()"
+                  moduleName = "Synechron-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prachigade/Documents/Synechron-Assignment/Synechron-Assignment/ViewModels/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C1D462A-1167-45AD-92D6-96BC3AF7609E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Synechron-Assignment/ViewModels/MoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchMovies(currentPage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
