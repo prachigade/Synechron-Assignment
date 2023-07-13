@@ -43,7 +43,7 @@ extension MoviesViewModel {
                 print("List of movies:", imageConfig)
                 self.imageConfig.accept(imageConfig.images)
                 self.secureUrl = imageConfig.images?.secure_base_url ?? ""
-                self.size = imageConfig.images?.poster_sizes.first ?? ""
+                self.size = imageConfig.images?.poster_sizes?.first ?? "w92"
             }, onError: { error in
                 switch error {
                 case ApiError.conflict:
@@ -65,7 +65,7 @@ extension MoviesViewModel {
             .subscribe(onNext: { movies in
                 print("List of movies:", movies)
                 let existData = self.movies.value
-                self.movies.accept(existData + movies.results)
+                self.movies.accept(existData + (movies.results ?? []))
             }, onError: { error in
                 switch error {
                 case ApiError.conflict:

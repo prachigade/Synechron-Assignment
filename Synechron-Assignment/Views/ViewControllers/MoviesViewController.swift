@@ -16,10 +16,15 @@ class MoviesViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
         setupViewModel()
         setupCollectionView()
         bindCollectionView()
         viewModel.fetchConfiguration()
+    }
+    
+    private func setupUI() {
+        self.navigationItem.title = "Popular Movies"
     }
     
     private func setupViewModel() {
@@ -35,7 +40,13 @@ class MoviesViewController: UIViewController, UIScrollViewDelegate {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.collectionView?.allowsSelection = true
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
+        layout.minimumLineSpacing = 30
+        
+        let padding: CGFloat =  25
+        let collectionViewSize = moviesCollectionView.frame.size.width - padding
+        let itemSize = CGSize(width: collectionViewSize/2, height: 115)
+        layout.itemSize = itemSize
+        
         return layout
     }
 }

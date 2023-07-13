@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa 
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     private let loginViewModel = LoginViewModel()
     private let disposeBag = DisposeBag()
