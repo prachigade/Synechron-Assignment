@@ -1,0 +1,6 @@
+framework module Pods_Synechron_Assignment_Synechron_AssignmentUITests {
+  umbrella header "Pods-Synechron-Assignment-Synechron-AssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

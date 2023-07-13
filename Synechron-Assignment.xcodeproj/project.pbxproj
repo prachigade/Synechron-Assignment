@@ -16,6 +16,11 @@
 		4E2EF5282A5F013D00B750BD /* Synechron_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EF5272A5F013D00B750BD /* Synechron_AssignmentTests.swift */; };
 		4E2EF5322A5F013D00B750BD /* Synechron_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EF5312A5F013D00B750BD /* Synechron_AssignmentUITests.swift */; };
 		4E2EF5342A5F013D00B750BD /* Synechron_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EF5332A5F013D00B750BD /* Synechron_AssignmentUITestsLaunchTests.swift */; };
+		4E2EF54A2A5FC66400B750BD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EF5492A5FC66400B750BD /* LoginViewModel.swift */; };
+		4E2EF54D2A5FC87E00B750BD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EF54C2A5FC87E00B750BD /* String+Extension.swift */; };
+		A09A881117A3A0892C608A8F /* Pods_Synechron_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4114634415E2FCB755B2C4 /* Pods_Synechron_Assignment.framework */; };
+		A285FB719214D4403DC79164 /* Pods_Synechron_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F680748B96D08C703D991B97 /* Pods_Synechron_AssignmentTests.framework */; };
+		AE905602B9AFCAA943FF76C6 /* Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F9708269DD88328E23A891 /* Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C76949AF2D5CE460AC1407D /* Pods-Synechron-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-Synechron-AssignmentTests/Pods-Synechron-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		36F9708269DD88328E23A891 /* Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2EF50D2A5F013B00B750BD /* Synechron-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Synechron-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2EF5102A5F013B00B750BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E2EF5122A5F013B00B750BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		4E2EF52D2A5F013D00B750BD /* Synechron-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synechron-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2EF5312A5F013D00B750BD /* Synechron_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synechron_AssignmentUITests.swift; sourceTree = "<group>"; };
 		4E2EF5332A5F013D00B750BD /* Synechron_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synechron_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E2EF5492A5FC66400B750BD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4E2EF54C2A5FC87E00B750BD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5B522F5565E7B59EBCE67C98 /* Pods-Synechron-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-Assignment.release.xcconfig"; path = "Target Support Files/Pods-Synechron-Assignment/Pods-Synechron-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		6B4114634415E2FCB755B2C4 /* Pods_Synechron_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Synechron_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718737F125A7EAEE5C14F7A3 /* Pods-Synechron-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Synechron-AssignmentTests/Pods-Synechron-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E9A7D5629C49D655BBF766 /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-Assignment-Synechron-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Synechron-Assignment-Synechron-AssignmentUITests/Pods-Synechron-Assignment-Synechron-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C11C74C062B24812EBC21B2E /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-Assignment-Synechron-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Synechron-Assignment-Synechron-AssignmentUITests/Pods-Synechron-Assignment-Synechron-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2950E3A063B15769211888E /* Pods-Synechron-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synechron-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Synechron-Assignment/Pods-Synechron-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		F680748B96D08C703D991B97 /* Pods_Synechron_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Synechron_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09A881117A3A0892C608A8F /* Pods_Synechron_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A285FB719214D4403DC79164 /* Pods_Synechron_AssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE905602B9AFCAA943FF76C6 /* Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17F4B6E173049F760E6C4BD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2950E3A063B15769211888E /* Pods-Synechron-Assignment.debug.xcconfig */,
+				5B522F5565E7B59EBCE67C98 /* Pods-Synechron-Assignment.release.xcconfig */,
+				C11C74C062B24812EBC21B2E /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.debug.xcconfig */,
+				A4E9A7D5629C49D655BBF766 /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.release.xcconfig */,
+				718737F125A7EAEE5C14F7A3 /* Pods-Synechron-AssignmentTests.debug.xcconfig */,
+				0C76949AF2D5CE460AC1407D /* Pods-Synechron-AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C489FA68A46B7A9B7A6F91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B4114634415E2FCB755B2C4 /* Pods_Synechron_Assignment.framework */,
+				36F9708269DD88328E23A891 /* Pods_Synechron_Assignment_Synechron_AssignmentUITests.framework */,
+				F680748B96D08C703D991B97 /* Pods_Synechron_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4E2EF5042A5F013B00B750BD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				4E2EF5262A5F013D00B750BD /* Synechron-AssignmentTests */,
 				4E2EF5302A5F013D00B750BD /* Synechron-AssignmentUITests */,
 				4E2EF50E2A5F013B00B750BD /* Products */,
+				17F4B6E173049F760E6C4BD8 /* Pods */,
+				4C489FA68A46B7A9B7A6F91E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,8 @@
 		4E2EF50F2A5F013B00B750BD /* Synechron-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				4E2EF54B2A5FC87200B750BD /* Extensions */,
+				4E2EF5482A5FC65800B750BD /* ViewModels */,
 				4E2EF5102A5F013B00B750BD /* AppDelegate.swift */,
 				4E2EF5122A5F013B00B750BD /* SceneDelegate.swift */,
 				4E2EF5142A5F013B00B750BD /* ViewController.swift */,
@@ -127,6 +173,22 @@
 			path = "Synechron-AssignmentUITests";
 			sourceTree = "<group>";
 		};
+		4E2EF5482A5FC65800B750BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E2EF5492A5FC66400B750BD /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E2EF54B2A5FC87200B750BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E2EF54C2A5FC87E00B750BD /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2EF5372A5F013D00B750BD /* Build configuration list for PBXNativeTarget "Synechron-Assignment" */;
 			buildPhases = (
+				BE6F1A47BF0144B9918D0229 /* [CP] Check Pods Manifest.lock */,
 				4E2EF5092A5F013B00B750BD /* Sources */,
 				4E2EF50A2A5F013B00B750BD /* Frameworks */,
 				4E2EF50B2A5F013B00B750BD /* Resources */,
+				15B9E4801CA644878D9C8BBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2EF53A2A5F013D00B750BD /* Build configuration list for PBXNativeTarget "Synechron-AssignmentTests" */;
 			buildPhases = (
+				E0DECD685093BCF3E143CCC3 /* [CP] Check Pods Manifest.lock */,
 				4E2EF51F2A5F013D00B750BD /* Sources */,
 				4E2EF5202A5F013D00B750BD /* Frameworks */,
 				4E2EF5212A5F013D00B750BD /* Resources */,
@@ -169,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2EF53D2A5F013D00B750BD /* Build configuration list for PBXNativeTarget "Synechron-AssignmentUITests" */;
 			buildPhases = (
+				1D4D88AB78FB24311C143D5A /* [CP] Check Pods Manifest.lock */,
 				4E2EF5292A5F013D00B750BD /* Sources */,
 				4E2EF52A2A5F013D00B750BD /* Frameworks */,
 				4E2EF52B2A5F013D00B750BD /* Resources */,
+				C5A4E54F2B37217081C96B65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +320,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15B9E4801CA644878D9C8BBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment/Pods-Synechron-Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment/Pods-Synechron-Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment/Pods-Synechron-Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D4D88AB78FB24311C143D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Synechron-Assignment-Synechron-AssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6F1A47BF0144B9918D0229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Synechron-Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A4E54F2B37217081C96B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment-Synechron-AssignmentUITests/Pods-Synechron-Assignment-Synechron-AssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment-Synechron-AssignmentUITests/Pods-Synechron-Assignment-Synechron-AssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Synechron-Assignment-Synechron-AssignmentUITests/Pods-Synechron-Assignment-Synechron-AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DECD685093BCF3E143CCC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Synechron-AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E2EF5092A5F013B00B750BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2EF54A2A5FC66400B750BD /* LoginViewModel.swift in Sources */,
 				4E2EF5152A5F013B00B750BD /* ViewController.swift in Sources */,
 				4E2EF5112A5F013B00B750BD /* AppDelegate.swift in Sources */,
+				4E2EF54D2A5FC87E00B750BD /* String+Extension.swift in Sources */,
 				4E2EF5132A5F013B00B750BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +604,7 @@
 		};
 		4E2EF5382A5F013D00B750BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2950E3A063B15769211888E /* Pods-Synechron-Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +632,7 @@
 		};
 		4E2EF5392A5F013D00B750BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B522F5565E7B59EBCE67C98 /* Pods-Synechron-Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +660,7 @@
 		};
 		4E2EF53B2A5F013D00B750BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718737F125A7EAEE5C14F7A3 /* Pods-Synechron-AssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +680,7 @@
 		};
 		4E2EF53C2A5F013D00B750BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C76949AF2D5CE460AC1407D /* Pods-Synechron-AssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +700,7 @@
 		};
 		4E2EF53E2A5F013D00B750BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11C74C062B24812EBC21B2E /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +718,7 @@
 		};
 		4E2EF53F2A5F013D00B750BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E9A7D5629C49D655BBF766 /* Pods-Synechron-Assignment-Synechron-AssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

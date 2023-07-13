@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Synechron_Assignment_Synechron_AssignmentUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Synechron_Assignment_Synechron_AssignmentUITests
+@end

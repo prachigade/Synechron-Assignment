@@ -1,0 +1,6 @@
+framework module Pods_Synechron_Assignment {
+  umbrella header "Pods-Synechron-Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
